@@ -15,10 +15,6 @@ $username = $value->get_username();
 $password = $value->get_password();
 $db_name = $value->get_db_name($token);
 
-//echo Properties:
-echo $token . "</br>" . "Host: " . $host . " Username: " . $username . " Password: " . $passwoer . "</br>" . " DataBase name: " . $db_name . "</br>";  
-
-
 class DB{
     //Fixed Properties:
     private $host;
