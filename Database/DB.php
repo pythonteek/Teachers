@@ -72,9 +72,4 @@ class DB{
         return $this->db_name;
     }
 }
-
-$DB = new DB();
-$DB->set_values($host, $username, $password, $db_name);
-echo $DB->get_host();
-echo $DB->set_connection($host, $username, $password, $db_name);
 ?>
