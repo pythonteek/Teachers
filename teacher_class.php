@@ -1,3 +1,4 @@
+<?php
 class teacher{
         public $id;
         public $name;
@@ -109,3 +110,4 @@ class teacher{
         
         
     }
+?>
